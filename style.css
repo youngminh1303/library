@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #1951A8;
+    width: 100%;
+    color: #EBF6FF;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 50px;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    width: 20%;
+}
+
+header > nav > ul > li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+section {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #36A1DF;
+}
+
+.bookdisplay{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 2rem;
+}
+
+.book {
+    color: #EBF6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 15rem;
+    background-color: #1951A8;
+    grid-column: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.book button {
+    border: 2px solid #93a722;
+    border-radius: 5px;
+    background-color: #EBF6FF;
+    color: blueviolet;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+}
+
+.addBook {
+    width:  40% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18rem;
+    margin: auto;
+    background-color: #1951A8;
+    gap: 1rem;
+    border-radius: 20px;
+    color: #EBF6FF;
+}
+
+.addBook .inputgroup {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.addBook button {
+    background-color: #6db6fa;
+    color: #EBF6FF;
+    border: 0;
+    height: 2.5rem;
+    padding: 0.5rem;
+    width: 4rem;
+    border-radius: 5px;
+    
+
+}
+
+.inputgroup label[for="read"] {
+    align-self: flex-start;
+}
+
